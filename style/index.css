@@ -131,7 +131,6 @@ margin: 0px 32px;
 }
 /* Second section  */
 .hero2-bg {
-  /* position: absolute; */
   width: 1140px;
   height: 1395px;
   margin-left: 148px;
@@ -184,14 +183,11 @@ margin: 0px 32px;
   position: static;
   width: 850px;
   height: 250px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 40px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   align-self: stretch;
@@ -207,14 +203,11 @@ margin: 0px 32px;
   position: static;
   width: 850px;
   height: 240px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   align-self: stretch;
@@ -231,8 +224,6 @@ margin: 0px 32px;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -290,25 +281,21 @@ margin: 32px 0px;
 /* third section */
 
 .hero3-bg{
-    /* Frame 15 */
 position: absolute;
 width: 1140px;
 height: 777px;
 margin-left: 148px;
 margin-right: 152px;
-margin-top: 60px;
+margin-top: 40px;
 margin-bottom: 0px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
 border-radius: 20px;
-background-color: antiquewhite;
 }
 .container-frame{
-    /* Frame 5 */
 position: static;
 width: 852px;
 height: 115px;
@@ -320,6 +307,35 @@ padding: 0px;
 flex: none;
 order: 0;
 flex-grow: 0;
+margin: 30px 0px ;
+}
+.container-video{
+position: static;
+width: 1140px;
+height: 614px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 32px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
 margin: 30px 0px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+}
+.container-video .video-frame{
+position: static;
+width: 1076px;
+height: 550px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+border-radius: 16px;
 }
 
